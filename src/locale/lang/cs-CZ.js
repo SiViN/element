@@ -74,7 +74,7 @@ export default {
     },
     pagination: {
       goto: 'Jít na',
-      pagesize: 'na stranu',
+      pagesize: ' na stranu',
       total: 'Celkem {total}',
       pageClassifier: ''
     },
@@ -109,14 +109,14 @@ export default {
       hasCheckedFormat: '{checked}/{total} vybráno'
     },
     image: {
-      error: 'FAILED' // to be translated
+      error: 'CHYBA'
     },
     pageHeader: {
-      title: 'Back' // to be translated
+      title: 'Zpět'
     },
     popconfirm: {
-      confirmButtonText: 'Yes', // to be translated
-      cancelButtonText: 'No' // to be translated
+      confirmButtonText: 'Ano',
+      cancelButtonText: 'Ne'
     }
   }
 };
